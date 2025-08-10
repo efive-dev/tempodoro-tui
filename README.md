@@ -24,7 +24,7 @@ Once you have the backend running register a user using the following request:
 curl -X POST http://localhost:8080/auth/register   -H "Content-Type: application/json"   -d '{"username": "your_username", "password": "your_password"}'
 ```
 
-2. Clone the repository
+1. Clone the repository
 
 ```bash
 git clone https://github.com/efive-dev/tempodoro-tui.git

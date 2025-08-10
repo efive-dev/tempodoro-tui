@@ -18,8 +18,13 @@ It is meant to be used as a frontend for
 - Timer display with countdown for session and break periods.
 
 ### How to run
+0. Register a user
+Once you have the backend running register a user using the following request:
+```bash
+curl -X POST http://localhost:8080/auth/register   -H "Content-Type: application/json"   -d '{"username": "your_username", "password": "your_password"}'
+```
 
-1. Clone the repository
+2. Clone the repository
 
 ```bash
 git clone https://github.com/efive-dev/tempodoro-tui.git

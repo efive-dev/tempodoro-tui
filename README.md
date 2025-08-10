@@ -1,4 +1,4 @@
-## TUI Client (Python)
+## Tempodoro TUI
 
 The client app is a terminal-based interactive Pomodoro tool built with:
 

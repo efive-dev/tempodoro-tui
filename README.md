@@ -6,7 +6,7 @@ The client app is a terminal-based interactive Pomodoro tool built with:
 - **Textual** library for TUI components.
 - **aiohttp** for async HTTP requests.
 
-It is meant to be used as a frontend for
+It is meant to be used as a frontend for [tempodoro](https://github.com/efive-dev/tempodoro).
 
 ### Features
 
@@ -19,6 +19,8 @@ It is meant to be used as a frontend for
 
 ### How to run
 0. Register a user
+
+The backend can be found at [tempodoro](https://github.com/efive-dev/tempodoro).
 Once you have the backend running register a user using the following request:
 ```bash
 curl -X POST http://localhost:8080/auth/register   -H "Content-Type: application/json"   -d '{"username": "your_username", "password": "your_password"}'

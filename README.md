@@ -7,6 +7,7 @@ The client app is a terminal-based interactive Pomodoro tool built with:
 - **aiohttp** for async HTTP requests.
 
 It is meant to be used as a frontend for [tempodoro](https://github.com/efive-dev/tempodoro).
+![Demo](https://i.imgur.com/80V9C7W.gif)
 
 ### Features
 
